@@ -1,7 +1,7 @@
 
 <h1 align="center">Mansi Memes</h1>
 
-**Read in:** [Русский](https://github.com/avyscriptum/mansi-memes/blob/main/README.ru.md) | [Esperanto](https://github.com/avyscriptum/mansi-memes/blob/main/README.eo.md)
+**Read in:** [Русский](https://github.com/avysmorfias/mansi-memes/blob/main/README.ru.md) | [Esperanto](https://github.com/avysmorfias/mansi-memes/blob/main/README.eo.md)
 
 **Mansi Memes** is a project about creating memes in the Mansi language — one of the endangered Indigenous languages of Siberia.
 
@@ -47,7 +47,7 @@ I study scans of old dictionaries and textbooks, write down words into my own vo
 
 ## Data structure
 
-Each meme is described in a [JSON](https://github.com/avyscriptum/mansi-memes/blob/main/memes.json) format and includes:
+Each meme is described in a [JSON](https://github.com/avysmorfias/mansi-memes/blob/main/memes.json) format and includes:
  - id
  - phrase
 - dialect
@@ -66,7 +66,7 @@ If you:
 
 Then you can help:
 - Give a star ⭐
-- Share an idea in [issues](https://github.com/avyscriptum/mansi-memes/issues)
+- Share an idea in [issues](https://github.com/avysmorfias/mansi-memes/issues)
 - Help with translation
 - Suggest your favorite meme template
 - Learn Mansi with me!
@@ -78,5 +78,5 @@ Most memes use popular internet templates, whose authors might be unknown.
 If you're the author of an image and want it removed or changed, please contact me.
 
 **Texts and translations**  
-All texts and translations in the memes belong to [avyscriptum](https://github.com/avyscriptum)  
+All texts and translations in the memes belong to [avysmorfias](https://github.com/avysmorfias)  
 and are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
