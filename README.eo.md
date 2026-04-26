@@ -1,7 +1,7 @@
 
 <h1 align="center">Mansi Memes</h1>
 
-**Legu en:** [English](https://github.com/avyscriptum/mansi-memes/blob/main/README.md) | [Русский](https://github.com/avyscriptum/mansi-memes/blob/main/README.ru.md) 
+**Legu en:** [English](https://github.com/avysmorfias /mansi-memes/blob/main/README.md) | [Русский](https://github.com/avysmorfias /mansi-memes/blob/main/README.ru.md) 
  
 **Mansi Memes** estas projekto por krei memojn en la mansea lingvo — unu el la endanĝeraj indiĝenaj lingvoj de Siberio.
 
@@ -47,7 +47,7 @@ Mi studas skanaĵojn de malnovaj vortaroj kaj lernolibroj, notadas vortojn en mi
 
 ## Datumstrukturo
 
-Ĉiu memo estas priskribita en [JSON](https://github.com/avyscriptum/mansi-memes/blob/main/memes.json)-formato kaj enhavas:
+Ĉiu memo estas priskribita en [JSON](https://github.com/avysmorfias /mansi-memes/blob/main/memes.json)-formato kaj enhavas:
 - id
 - phrase
 - dialect
@@ -66,7 +66,7 @@ Se vi:
 
 Vi povas helpi tiel:
 - Donu stelon ⭐
-- Proponu ideon en [issue](https://github.com/avyscriptum/mansi-memes/issues)
+- Proponu ideon en [issue](https://github.com/avysmorfias /mansi-memes/issues)
 - Helpu kun traduko
 - Proponu vian plej ŝatatan mem-ŝablonon
 - Lernu la mansean lingvon kune kun mi!
@@ -78,5 +78,5 @@ Plej multaj memoj uzas popularajn interretajn ŝablonojn, kies aŭtoreco povas e
 Se vi estas la aŭtoro de bildo kaj volas ke ĝi estu forigita aŭ ŝanĝita — bonvolu kontakti min.
 
 **Tekstoj kaj tradukoj**  
-Ĉiuj tekstoj kaj tradukoj en la memoj apartenas al [Avyscriptum](https://github.com/avyscriptum)  
+Ĉiuj tekstoj kaj tradukoj en la memoj apartenas al [avysmorfias ](https://github.com/avysmorfias )  
 kaj estas publikigitaj sub la permesilo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
