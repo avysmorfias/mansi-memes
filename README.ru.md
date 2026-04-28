@@ -1,7 +1,7 @@
 
 <h1 align="center">Mansi Memes</h1>
 
-**Read in:** [English](https://github.com/avysmorfias /mansi-memes/blob/main/README.md) | [Esperanto](https://github.com/avysmorfias /mansi-memes/blob/main/README.eo.md)
+**Read in:** [English](https://github.com/avysmorfias/mansi-memes/blob/main/README.md) | [Esperanto](https://github.com/avysmorfias/mansi-memes/blob/main/README.eo.md)
 
 **Mansi Memes** — это проект по созданию мемов на мансийском языке, одном из исчезающих языков коренных народов Сибири.
 
@@ -47,7 +47,7 @@
 
 ## Структура данных
 
-Каждый мем описывается в формате [JSON](https://github.com/avysmorfias /mansi-memes/blob/main/memes.json) и включает:
+Каждый мем описывается в формате [JSON](https://github.com/avysmorfias/mansi-memes/blob/main/memes.json) и включает:
 - id
 - phrase
 - dialect
@@ -66,7 +66,7 @@
 
 То ты можешь помочь проекту:
 - Поставь звездочку ⭐
-- Предложи идею в [issue](https://github.com/avysmorfias /mansi-memes/issues)
+- Предложи идею в [issue](https://github.com/avysmorfias/mansi-memes/issues)
 - Помоги с переводом
 - Предложи свой любимый шаблон мема
 - Изучай мансийский вместе со мной!
@@ -78,5 +78,5 @@
 Если вы — автор изображения и хотите удалить или изменить публикацию, пожалуйста, напишите мне.
 
 **Тексты и переводы**  
-Все надписи и переводы в мемах принадлежат [avysmorfias ](https://github.com/avysmorfias )  
+Все надписи и переводы в мемах принадлежат [avysmorfias](https://github.com/avysmorfias)  
 и распространяются по лицензии [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
