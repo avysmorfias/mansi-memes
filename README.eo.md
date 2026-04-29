@@ -1,82 +1,83 @@
-
 <h1 align="center">Mansi Memes</h1>
 
-**Legu en:** [English](https://github.com/avysmorfias/mansi-memes/blob/main/README.md) | [Русский](https://github.com/avysmorfias/mansi-memes/blob/main/README.ru.md) 
- 
-**Mansi Memes** estas projekto por krei memojn en la mansea lingvo — unu el la endanĝeraj indiĝenaj lingvoj de Siberio.
+<p align="center">
+  <b>Legu en:</b> 
+  <a href="https://github.com/avysmorfias/mansi-memes/blob/main/README.md">English</a> | 
+  <a href="https://github.com/avysmorfias/mansi-memes/blob/main/README.ru.md">Русский</a>
+</p>
 
-## Kial?
+**Mansi Memes** estas kolekto de memoj en la mansea lingvo, aranĝita kiel multlingva datumaro por edukado kaj lingvistikaj eksperimentoj. La projekto celas subteni unu el la endanĝeritaj indiĝenaj lingvoj de Siberio per modernaj ciferecaj formatoj.
 
-Memoj estas simpla kaj vigla maniero por esprimi pensojn kaj emociojn. Per amuzaj bildoj mi volas subteni la intereson pri lingvo kaj kulturo, kiuj riskas malaperi.
+## Kial tio necesas?
+Memoj estas bonega rimedo por transdoni vivantan lingvon. Per mem-formato mi volas subteni intereson pri la mansea kulturo kaj lingvo — kiu nuntempe riskas malaperi — farante ĝian studadon aktuala por la interreto.
 
 ## Kiel ĝi funkcias?
+Mi studas skanaĵojn de arkivaj vortaroj kaj lernolibroj, ciferecigas la leksikon en personan datumbazon kaj sur ĝia bazo kreas memojn. Ĉiun memon mi akompanas per tradukoj en la rusan, anglan kaj Esperanton.
 
-Mi studas skanaĵojn de malnovaj vortaroj kaj lernolibroj, notadas vortojn en mia propra vortareto, kaj poste, per ŝablonoj kiujn mi ŝatas, mi kreas memojn kun tradukoj en la anglan, rusan kaj esperanton!
+### Kial Esperanto?
+> La rusa kaj angla lingvoj estas necesaj por la regiona kaj internacia publiko. Esperanton mi uzas kiel neŭtralan komunikilon kaj manieron unuigi la komunumon de lingvo-entuziasmuloj ĉirkaŭ la ideo pri lingva diverseco.
 
-### Esperanto?...
+## Ebloj de uzado
+La projekto povas esti utila por:
+- Lernado de la mansea lingvo per memoj.
+- Analizo de idiomoj kaj nuntempaj esprimoj.
+- Kreado de lingvaj iloj kaj NLP-eksperimentoj (natura lingvoprilaborado).
+- Esploroj en la kampo de Ciferecaj Homsciencoj (Digital Humanities).
 
-> Mi tradukas la memojn en la anglan, rusan kaj esperanton, por ke ambaŭ ruslingvanoj kaj homoj interesitaj pri lingvistiko kaj endanĝeraj lingvoj povu kompreni ilin. Esperanto estas mia maniero fari la projekton alirebla por la mondo.
+## Datumstrukturo (JSON)
+Ĉiuj memoj estas priskribitaj en la [JSON](https://github.com/avysmorfias/mansi-memes/blob/main/memes.json)-formato. Tio permesas aŭtomatigi la prilaboradon de datumoj kaj uzi ilin en aliaj programoj.
 
-### Vortaroj kaj lerniloj, kiujn mi uzas:
+**Ekzemplo de la strukturo:**
+```json
+{
+      "id": "1",
+      "phrase": "Ам тувыл хотьют?",
+      "dialect": "sosva",
+      "level": "basic",
+      "tags": ["mem", "ironic", "absurd", "relatable", "friendship", "conflict"],
+      "image": {
+        "filename": "me-and-who.png"
+      },
+      "translation": {
+        "sosva": "Ам тувыл хотьют?",
+        "en": "Me and who?",
+        "ru": "Я и кто?",
+        "eo": "Mi kaj kiu?"
+      }
+}
+```
 
-- **Mallonga mansea–rusa vortaro** — *Ĉernecov, Ĉernecova*, 1936 (4000 vortoj)
-- **Mansea–rusa vortaro** — *Balandin, Varkhuŝev*, 1958
-- **Mansea–rusa kaj rusa–mansea vortaro** — *Rombandeeva, Kuzakova*, 1982 (4000 vortoj)
-- **Bukvaro en la mansea (vogula) lingvo** — *Ĉerencova*, 1983
-- **Mansea–rusa vortaro** (Konda dialekto) — *Kuzakova*, 2001
-- **Rusa–mansea vortaro** — *Rombandeev*, 2005 (11000 vortoj)
-- **Praktika kurso de la mansea lingvo. Parto 2** — *Skribnik*, 2007
-- **Mansea–rusa vortaro** (Supera Lozva dialekto) — *Baĥtijarova, Dinislamov*, 2016 (2000 vortoj)
-- **Mallonga mansea–rusa vortaro** (por lernantoj de klasoj 1–4) — *Kumaev*, 2019 (800 vortoj)
-- **Ilustrita frazeologia vortaro de la mansea lingvo** — *Dinislamova*, 2020
-- **Toponimia vortaro de la mansea lingvo** — *Slinkina*, 2024
+## Uziataj materialoj
+Mi kolektas kaj uzas la sekvajn vortarojn kaj lernilojn pri la mansea lingvo:
+- **Mallonga mansea–rusa vortaro** — `Ĉernecov, Ĉernecova`, 1936.
+- **Mansea–rusa vortaro** — `Balandin, Varĥuŝev`, 1958.
+- **Mansea–rusa kaj rusa–mansea vortaro** — `Rombandejeva, Kuzakova`, 1982.
+- **Bukvaro en la mansea (vogula) lingvo** — `Ĉerencova`, 1983.
+- **Rusa–mansea vortaro** — `Rombandejeva`, 2005.
+- **Toponimia vortaro de la mansea lingvo** — `Slinkina`, 2024.
+*(La plena listo estas havebla en la dokumentaro de la projekto)*
 
-*Ĉu vi havas aliajn librojn pri la mansea lingvo? Bonvolu sendi ilin al mi: beeressence@gmail.com!*
+> **Ĉu vi havas aliajn librojn aŭ maloftajn materialojn?** Mi ĝojus pri ajna helpo: [beeressence@gmail.com](mailto:beeressence@gmail.com)!
 
 ## Galerio
 
 <div align="center">
 
 ![meme1](./memes/sosva/me-and-who.png)  
-<p align="center">"Me and who?" / "Я и кто?" / "Mi kaj kiu?"</p>
+*"Me and who?" / "Я и кто?" / "Mi kaj kiu?"*
 
 ![meme2](./memes/sosva/why.png)  
-<p>"Why" / "Почему" / "Kial"</p>
+*"Why" / "Почему" / "Kial"*
 
 </div>
 
-## Datumstrukturo
+## Kiel helpi al la projekto?
+- **Donu stelon ⭐ (Star)** — tio helpas la projekton fariĝi pli videbla.
+- **Diskutu:** proponu ideojn aŭ korektojn per [Issues](https://github.com/avysmorfias/mansi-memes/issues).
+- **Kunhavigu:** sendu mem-ŝablonojn aŭ helpu pri tradukado.
+- **Lernu:** simple uzu ĉi tiujn materialojn por konatiĝi kun la lingvo!
 
-Ĉiu memo estas priskribita en [JSON](https://github.com/avysmorfias/mansi-memes/blob/main/memes.json)-formato kaj enhavas:
-- id
-- phrase
-- dialect
-- language level
-- tags
-- image
-	- file name
-- translations into English, Russian, and Esperanto
+## Licenco kaj aŭtorrajto
+**Bildoj:** En la projekto estas uzataj popularaj interretaj ŝablonoj. Se vi estas la posedanto de bildo kaj volas, ke ĝi estu forigita aŭ menciita, bonvolu kontakti min.
 
-## Kiel helpi?
-
-Se vi:
-- interesiĝas pri endanĝeraj lingvoj;
-- lernas la mansean lingvon;
-- aŭ simple volas subteni neordinaran kuran projekton
-
-Vi povas helpi tiel:
-- Donu stelon ⭐
-- Proponu ideon en [issue](https://github.com/avysmorfias/mansi-memes/issues)
-- Helpu kun traduko
-- Proponu vian plej ŝatatan mem-ŝablonon
-- Lernu la mansean lingvon kune kun mi!
-
-## Aŭtorrajtoj
-
-**Bildoj**  
-Plej multaj memoj uzas popularajn interretajn ŝablonojn, kies aŭtoreco povas esti nekonata.  
-Se vi estas la aŭtoro de bildo kaj volas ke ĝi estu forigita aŭ ŝanĝita — bonvolu kontakti min.
-
-**Tekstoj kaj tradukoj**  
-Ĉiuj tekstoj kaj tradukoj en la memoj apartenas al [avysmorfias](https://github.com/avysmorfias)  
-kaj estas publikigitaj sub la permesilo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+**Tekstoj kaj tradukoj:** Apartenas al [avysmorfias](https://github.com/avysmorfias) kaj estas distribuitaj laŭ la permesilo [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
