@@ -494,5 +494,21 @@
         "ru": "Злая Танваруп-баба (сварливая женщина)",
         "eo": "Malbona Tanvarup-virino (malica, kverelema virino)"
       }
+    },
+    {
+      "id": "32",
+      "phrase": "Витхӯрый",
+      "dialect": "sosva",
+      "level": "basic",
+      "tags": ["mem", "ironic", "absurd", "vegetable"],
+      "image": {
+        "filename": "Cucumber.png"
+      },
+      "translation": {
+        "sosva": "Витхӯрый",
+        "en": "Cucumber",
+        "ru": "Огурец",
+        "eo": "Kukumo"
+      }
     }
   ]
