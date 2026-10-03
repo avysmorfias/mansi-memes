@@ -1,0 +1,546 @@
+[
+  {
+    "id": 1,
+    "expression": {
+      "text": "Ам тувыл хотьют?",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Me and who?",
+      "ru": "Я и кто?",
+      "eo": "Mi kaj kiu?"
+    },
+    "sources": ["valdazs-untuy-erzyanin-lesson-1"],
+    "meme": {
+      "image": "memes/sosva/me-and-who.png"
+    }
+  },
+  {
+    "id": 2,
+    "expression": {
+      "text": "Манрыг",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Why",
+      "ru": "Почему",
+      "eo": "Kial"
+    },
+    "sources": ["valdazs-untuy-erzyanin-lesson-1"],
+    "meme": {
+      "image": "memes/sosva/why.png"
+    }
+  },
+  {
+    "id": 3,
+    "expression": {
+      "text": "Аквтоп по̄слувес",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Like he was painted",
+      "ru": "Будто нарисован (о красивом)",
+      "eo": "Kiel se li estus pentrita (pri bela homo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/like-he-was-painted.png"
+    }
+  },
+  {
+    "id": 4,
+    "expression": {
+      "text": "Лылыӈ нёхыс сагпа, лылыӈ ӯй сагпа а̄ги (нэ̄)",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "A girl with braids like living sables",
+      "ru": "Девушка с косами, как у живого соболя",
+      "eo": "Knabino kun harplektaj kiel vivantaj zibeloj"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/a-girl-with-braids-like-living-sables.png"
+    }
+  },
+  {
+    "id": 5,
+    "expression": {
+      "text": "Посыӈ пуӈк",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Bright head (clever person)",
+      "ru": "Светлая голова (о сообразительности)",
+      "eo": "Brila kapo (pri lerta homo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/bright-head-(clever-person).png"
+    }
+  },
+  {
+    "id": 6,
+    "expression": {
+      "text": "Аквтоп а̄кань колт о̄лы",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Like living in a doll’s house (quiet, modest)",
+      "ru": "Словно живёт в кукольном домике (о скромности)",
+      "eo": "Kvazaŭ ŝi loĝas en pupdomo (pri modesta persono)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/like-living-in-a-doll's-house-(quiet,-modest).png"
+    }
+  },
+  {
+    "id": 7,
+    "expression": {
+      "text": "Колыг халт лотых сунсовыӈ э̄ква",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "A coal-hauling sled woman between houses (gossip)",
+      "ru": "Женщина-сани, возящая уголь между домами (сплетница)",
+      "eo": "Virino-sledo transportanta karbon inter domoj (onidirema)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/a-coal-hauling-sled-woman-between-houses-(gossip).png"
+    }
+  },
+  {
+    "id": 8,
+    "expression": {
+      "text": "Те̄р (ке̄р) вильт",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Iron face (cruel, cold)",
+      "ru": "Железное лицо (жестокий)",
+      "eo": "Ferovizaĝo (kruelema, senkora)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/iron-face-(cruel,-cold).png"
+    }
+  },
+  {
+    "id": 9,
+    "expression": {
+      "text": "Хӯлыӈ ня̄нь",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Fish pie (slow, lazy person)",
+      "ru": "Рыбный пирог (медлительный, ленивый)",
+      "eo": "Fiŝa torto (mallerta, pigra homo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/fish-pie-(slow,-lazy-person).png"
+    }
+  },
+  {
+    "id": 10,
+    "expression": {
+      "text": "Хоса те̄рсоль (ке̄рсоль)",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Long nail (tall and skinny person)",
+      "ru": "Длинный гвоздь (высокий и худой)",
+      "eo": "Longa najlo (alta kaj maldika)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/long-nail-(tall-and-skinny-person).png"
+    }
+  },
+  {
+    "id": 11,
+    "expression": {
+      "text": "Тōсам лув кварак",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "A bundle of dry bones (very skinny)",
+      "ru": "Связка сухих костей (очень худой)",
+      "eo": "Fasko da sekaj ostoj (tre maldika)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/a-bundle-of-dry-bones-(very-skinny).png"
+    }
+  },
+  {
+    "id": 12,
+    "expression": {
+      "text": "Кӯрилам кӯринька",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Disheveled Kurinka (sloppy person)",
+      "ru": "Растрёпанная Куринька (неряха)",
+      "eo": "Malorda Kurinka (netaŭga persono)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/disheveled-kurinka-(sloppy-person).png"
+    }
+  },
+  {
+    "id": 13,
+    "expression": {
+      "text": "Самыӈ а̄ӈквал",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Eyed stump (foolish person)",
+      "ru": "Глазастый пень (глупый)",
+      "eo": "Okula stumpeto (malsaĝulo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/eyed-stump-(foolish-person).png"
+    }
+  },
+  {
+    "id": 14,
+    "expression": {
+      "text": "Сыме во̄йт ови",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "The heart flows like butter (pleasant feeling)",
+      "ru": "Сердце течёт как масло (радость)",
+      "eo": "La koro fluas kiel butero (ĝojo, agrabla sento)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/the-heart-flows-like-butter-(pleasant-feeling).png"
+    }
+  },
+  {
+    "id": 15,
+    "expression": {
+      "text": "Понсум сосыг кит сам",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Two eyes like ripe currants (dark-eyed)",
+      "ru": "Два глаза как спелая смородина (черноглазый)",
+      "eo": "Du okuloj kiel maturaj grosoj (nigr-okula)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/two-eyes-like-ripe-currants-(dark-eyed).png"
+    }
+  },
+  {
+    "id": 16,
+    "expression": {
+      "text": "Товлыӈыг е̄мтуӈкве",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "To become winged (to feel happiness)",
+      "ru": "Стать крылатым (испытывать счастье)",
+      "eo": "Fariĝi flugilhava (senti feliĉon)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/to-become-winged-(to-feel-happiness).png"
+    }
+  },
+  {
+    "id": 17,
+    "expression": {
+      "text": "Ся̄гтыӈ ка̄тын-ла̄глын патуӈкве",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "To become joyful in hands and feet (rejoice)",
+      "ru": "Стать с радостными руками-ногами (ликовать)",
+      "eo": "Fariĝi ĝoja en manoj kaj piedoj (ĝoji)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/to-become-joyful-in-hands-and-feet-(rejoice).png"
+    }
+  },
+  {
+    "id": 18,
+    "expression": {
+      "text": "Те̄лпе (ке̄лпе) нас па̄йтахты",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "The blood boils (to be angry)",
+      "ru": "Кровь кипит (злиться)",
+      "eo": "La sango bolas (koleri)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/the-blood-boils-(to-be-angry).png"
+    }
+  },
+  {
+    "id": 19,
+    "expression": {
+      "text": "Самаге улял са̄лэ̄г",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "The eyes flash with fire (furious look)",
+      "ru": "Глаза вспыхнули огнём (яростный взгляд)",
+      "eo": "La okuloj ekbrilis per fajro (kolera rigardo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/the-eyes-flash-with-fire-(furious-look).png"
+    }
+  },
+  {
+    "id": 20,
+    "expression": {
+      "text": "Не̄р хольт конгуӈкве",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "To boil like foam (shout in anger)",
+      "ru": "Кипеть как пена (кричать, ругаться)",
+      "eo": "Boli kiel ŝaŭmo (krii pro kolero)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/to-boil-like-foam-(shout-in-anger).png"
+    }
+  },
+  {
+    "id": 21,
+    "expression": {
+      "text": "Па̄квсам яныт",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "The size of a pine nut (tiny)",
+      "ru": "С кедровый орех величиной (очень маленький)",
+      "eo": "Granda kiel pinosemo (tre malgranda)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/the-size-of-a-pine-nut-(tiny).png"
+    }
+  },
+  {
+    "id": 22,
+    "expression": {
+      "text": "Сыме ха̄ӈра паттан хōяс",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "The heart hit the heel (terrified)",
+      "ru": "Сердце ударилось о пятку (сильно испугался)",
+      "eo": "La koro frapis la kalkanon (teruriĝis)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/the-heart-hit-the-heel-(terrified).png"
+    }
+  },
+  {
+    "id": 23,
+    "expression": {
+      "text": "Аквтоп алпитэ по̄лям витыл равтасавес",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Like being splashed with cold water (startled)",
+      "ru": "Как будто окатили холодной водой (испугался)",
+      "eo": "Kvazaŭ verŝite per malvarma akvo (ekteruriĝis)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/like-being-splashed-with-cold-water-(startled).png"
+    }
+  },
+  {
+    "id": 24,
+    "expression": {
+      "text": "Ке̄лп (те̄лп) та̄рсанэ я̄ӈкыл хартумтаве̄сыт",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Blood vessels froze over (frozen with fear)",
+      "ru": "Сосуды затянуло льдом (очень испугался)",
+      "eo": "La sangaj vaskuloj glaciĝis (frostiĝis de timo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/blood-vessels-froze-over-(frozen-with-fear).png"
+    }
+  },
+  {
+    "id": 25,
+    "expression": {
+      "text": "Тōрыӈ āкань",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "A doll in a headscarf (neat girl)",
+      "ru": "Кукла в платке (опрятная девушка)",
+      "eo": "Pupo en kaptuko (orda knabino)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/a-doll-in-a-headscarf-(neat-girl).png"
+    }
+  },
+  {
+    "id": 26,
+    "expression": {
+      "text": "Сярыӈ āӈквал хурип",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Like a burnt stump (unkempt person)",
+      "ru": "Как обгоревший пень (неопрятный человек)",
+      "eo": "Kiel brulinta stumpeto (netaŭga homo)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/like-a-burnt-stump-(unkempt-person).png"
+    }
+  },
+  {
+    "id": 27,
+    "expression": {
+      "text": "Сиськурек пуӈк",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Chicken head (scatterbrained)",
+      "ru": "Куриная голова (глупый, забывчивый)",
+      "eo": "Koka kapo (forgesema, malsaĝa)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/chicken-head-(scatterbrained).png"
+    }
+  },
+  {
+    "id": 28,
+    "expression": {
+      "text": "Со̄выр сым",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Heart of a hare (cowardly)",
+      "ru": "Зайца сердце (трусливый)",
+      "eo": "Koro de leporo (tima)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/heart-of-a-hare-(cowardly).png"
+    }
+  },
+  {
+    "id": 29,
+    "expression": {
+      "text": "Тāрыгсов āги",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Daughter of a pine (tall girl)",
+      "ru": "Дочь сосны (высокая девушка)",
+      "eo": "Filino de pino (alta knabino)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/daughter-of-a-pine-(tall-girl).png"
+    }
+  },
+  {
+    "id": 30,
+    "expression": {
+      "text": "Наӈ о̄пан аквтоп пасяр-я̄ ӯлтта тӯпта̄л минастэ",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Like your grandfather crossed the Pechora without oars (stubborn)",
+      "ru": "Словно твой дед по отцу пересёк Печору без вёсел (упрямый)",
+      "eo": "Kvazaŭ via avo transiris la Peĉoron sen remiloj (obstina)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/like-your-grandfather-crossed-the-pechora-without-oars-(stubborn).png"
+    }
+  },
+  {
+    "id": 31,
+    "expression": {
+      "text": "Кантыӈ та̄нва̄руп-э̄ква",
+      "language": "mns",
+      "variety": "sosva"
+    },
+    "translations": {
+      "en": "Evil Tanvarup-woman (a witchy, quarrelsome woman)",
+      "ru": "Злая Танваруп-баба (сварливая женщина)",
+      "eo": "Malbona Tanvarup-virino (malica, kverelema virino)"
+    },
+    "sources": ["dinislamova-2020"],
+    "meme": {
+      "image": "memes/sosva/evil-tanvarup-woman-(a-witchy,-quarrelsome-woman).png"
+    }
+  },
+  {
+    "id": 32,
+    "expression": {
+      "text": "Витхӯрый",
+      "language": "mns",
+      "variety": "upper-lozva"
+    },
+    "translations": {
+      "en": "Cucumber",
+      "ru": "Огурец",
+      "eo": "Kukumo"
+    },
+    "sources": ["bakhtiyarova-dinislamov-2016"],
+    "meme": {
+      "image": "memes/upper-lozva/cucumber.png"
+    }
+  }
+]

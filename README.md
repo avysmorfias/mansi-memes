@@ -1,95 +1,116 @@
 <h1 align="center">Mansi Memes</h1>
 
 <p align="center">
-  <b>Read in:</b> 
-  <a href="https://github.com/avysmorfias/mansi-memes/blob/main/README.ru.md">Русский</a> | 
+  <b>Read in:</b>
+  <a href="https://github.com/avysmorfias/mansi-memes/blob/main/README.ru.md">Русский</a> |
   <a href="https://github.com/avysmorfias/mansi-memes/blob/main/README.eo.md">Esperanto</a>
 </p>
 
-**Mansi Memes** is a collection of memes in the Mansi language, structured as a multilingual dataset for educational research and linguistic experimentation. This project aims to support one of the endangered Indigenous languages of Siberia through modern digital formats.
+**Mansi Memes** is a collection of memes in the Mansi language.
+
+The idea is simple: I take words and expressions from Mansi dictionaries, books, and other learning materials and put them into familiar internet formats — from simple jokes to Minecraft screenshots.
+
+The project is a small attempt to show Mansi in a context where you might not expect to see it: not only in dictionaries, archives, and linguistic publications, but also in a meme sent to a friend.
 
 ## Why?
-Memes are a powerful tool for transmitting a living language. Through the meme format, I aim to foster interest in Mansi culture and language—which is currently at risk of extinction—by making its study relevant for the digital age.
+Mansi is usually encountered through dictionaries, linguistic publications, archives, and educational materials. I wanted to do something much less serious with it: take words and expressions from those materials and put them into the kind of internet culture I encounter every day.
+
+A Minecraft screenshot with a Mansi caption may seem like a very small thing. That is exactly what I like about it. It shows that Mansi can be used not only to describe a language, but also to make a joke, share something with a friend, and simply exist on the internet.
+
+I also hope that the project can make other people curious about Mansi — or inspire them to make something similar with their own language.
+
+> Somewhere in Siberia, there is a language in which someone can make a Minecraft meme.
+
+## Why Esperanto?
+English is here because it is the easiest way to reach an international audience. Russian is natural for the project because much of the Mansi material I work with is in Russian.
+
+Esperanto has a different purpose. It gives the project a way to reach people who are already interested in languages and linguistic diversity, but who may never have encountered Mansi before.
+
+So Esperanto is not here simply as another translation language. It is a small bridge between an international language community and a small Indigenous language of Siberia.
+
+**Mansi → Esperanto → a wider world.**
+
+## What is here?
+The repository contains Mansi memes, the expressions used in them, translations, information about their sources, and structured data.
+
+The memes currently represent several Mansi varieties, including Sosva and Upper Lozva. More varieties can be added as new material becomes available.
+
+The collection is intentionally small. It is not meant to be a complete dictionary, corpus, or academic database. It is a growing collection of things I find interesting, funny, and worth sharing.
 
 ## How it works
-I study scans of archival dictionaries and textbooks, digitize the vocabulary into a personal database, and use it to create memes in the Mansi language. Each meme is accompanied by translations in Russian, English, and Esperanto.
+I look through Mansi dictionaries, phraseological dictionaries, textbooks, and other learning materials, find words and expressions that can work in a meme, and create the meme around them.
 
-### Why Esperanto?
-> Russian and English are essential for reaching local and international audiences. I use Esperanto as a neutral communication tool to connect with a global community of language enthusiasts and support the ideal of linguistic diversity.
+The original Mansi expression is kept together with translations into English, Russian, and Esperanto. The source of the expression is recorded as well, so that the material can be traced back to the dictionary, book, lesson, or other resource where I found it.
 
-## Use Cases
-This project can be useful for:
-- Learning the Mansi language through memes.
-- Analyzing idioms and contemporary expressions.
-- Developing linguistic tools and NLP experiments.
-- Research in the field of Digital Humanities.
+Some of the material comes from older printed books that are difficult to find outside specialized collections. I also use newer digital materials, including online Mansi lessons and other resources.
 
-## Data Structure (JSON)
-All memes are described in [JSON](https://github.com/avysmorfias/mansi-memes/blob/main/memes.json) format. This allows for automated data processing and integration into third-party applications.
+The complete source information is kept in [`data/sources.json`](./data/sources.json).
 
-**Structure example:**
+## Data
+The collection is also stored as structured JSON in [`data/memes.json`](./data/memes.json).
+
+Each entry connects the Mansi expression, its variety, translations, source, and the corresponding meme image.
+
+For example:
 ```json
 {
-      "id": "1",
-      "phrase": "Ам тувыл хотьют?",
-      "dialect": "sosva",
-      "level": "basic",
-      "tags": ["mem", "ironic", "absurd", "relatable", "friendship", "conflict"],
-      "image": {
-        "filename": "me-and-who.png"
-      },
-      "translation": {
-        "sosva": "Ам тувыл хотьют?",
-        "en": "Me and who?",
-        "ru": "Я и кто?",
-        "eo": "Mi kaj kiu?"
-      }
+  "id": 1,
+  "expression": {
+    "text": "Ам тувыл хотьют?",
+    "language": "mns",
+    "variety": "sosva"
+  },
+  "translations": {
+    "en": "Me and who?",
+    "ru": "Я и кто?",
+    "eo": "Mi kaj kiu?"
+  },
+  "sources": [
+    "valdazs-untuy-erzyanin-lesson-1"
+  ],
+  "meme": {
+    "image": "memes/sosva/me-and-who.png"
+  }
 }
 ```
-## Resources and Materials
-I collect and utilize the following dictionaries and educational materials:
-- **Short Mansi–Russian Dictionary** — `Chernetsov, Chernetsova`, 1936 (4,000 words)
-- **Mansi–Russian Dictionary** — `Balandin, Varkhushev`, 1958
-- **Mansi–Russian and Russian–Mansi Dictionary** — `Rombandeyeva, Kuzakova`, 1982 (4,000 words)
-- **Primer in the Mansi (Vogul) Language** — `Cherentsova`, 1983
-- **Mansi–Russian Dictionary** (Konda dialect) — `Kuzakova`, 2001
-- **Russian–Mansi Dictionary** — `Rombandeyeva`, 2005 (11,000 words)
-- **Practical Course of the Mansi Language. Part 2** — `Skribnik`, 2007
-- **Mansi–Russian Dictionary** (Upper Lozva dialect) — `Bakhtiyarova, Dinislamov`, 2016 (2,000 words)
-- **Short Mansi–Russian Dictionary** (for grades 1–4) — `Kumaev`, 2019 (800 words)
-- **Illustrated Phraseological Dictionary of the Mansi Language** — `Dinislamova`, 2020
-- **Dictionary of Mansi Toponyms** — `Slinkina`, 2024
 
-> **Do you have other books or rare materials?** I would appreciate any help: beeressence@gmail.com!
+The JSON is not the main purpose of the project, but it makes the collection easier to maintain and reuse. The data can also be used for small linguistic experiments, scripts, or other projects built around the collection.
 
 ## Gallery
-
 <div align="center">
 
-  
+![Mansi meme: Me and who?](./memes/sosva/me-and-who.png)
 
-![meme1](./memes/sosva/me-and-who.png)  
+<p align="center"><i>“Ам тувыл хотьют?” — “Me and who?”</i></p>
 
-<p align="center">"Me and who?" / "Я и кто?" / "Mi kaj kiu?"</p>
+<br>
 
-  
+![Mansi meme: Why](./memes/sosva/why.png)
 
-![meme2](./memes/sosva/why.png)  
-
-<p>"Why" / "Почему" / "Kial"</p>
-
-  
+<p align="center"><i>“Why?”</i></p>
 
 </div>
 
-## How to support?
-- **Star ⭐ the repository** — it helps the project gain visibility.
-- **Discuss:** Propose ideas, suggestions, or corrections via [Issues](https://github.com/avysmorfias/mansi-memes/issues).
-- **Share:** Send meme templates or help with translations.
-- **Learn:** Simply use these materials to start your journey with the Mansi language!
+The gallery is the heart of the project. The point is not only to collect Mansi expressions, but to actually put them into modern visual and humorous contexts.
+
+## Have something I don't have?
+A large part of the fun of this project is finding Mansi material that is difficult to discover.
+
+If you have a Mansi dictionary, textbook, recording, translation, or another rare resource that could help find new words and expressions, I would be very happy to hear about it.
+
+You can also help by:
+* pointing out mistakes in the expressions or translations;
+* suggesting a meme idea or template;
+* contributing your own Mansi meme;
+* sharing the project with someone interested in Mansi or other lesser-known languages.
+
+For corrections, suggestions, and contributions, you can use [GitHub Issues](https://github.com/avysmorfias/mansi-memes/issues) or contact me directly at **[beeressence@gmail.com](mailto:beeressence@gmail.com)**.
 
 ## License and Copyright
+Original material created for this repository, including original translations, descriptions, and other original text and data, is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-**Images:** This project uses popular internet templates. If you are the copyright holder of an image and would like it removed or attributed, please contact me.
+Mansi expressions and other linguistic material come from dictionaries, books, lessons, recordings, and other sources listed in [`data/sources.json`](./data/sources.json). Third-party images used in the memes are not covered by this license.
 
-**Texts and Translations:** All original content and translations belong to [avysmorfias](https://github.com/avysmorfias) and are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Images created by the repository author, such as original photographs or screenshots, are also not covered by this license unless explicitly stated otherwise.
+
+See [`LICENSE`](./LICENSE) for the full licensing and copyright information.
