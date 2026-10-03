@@ -85,7 +85,7 @@ JSON ne estas la ĉefa celo de la projekto, sed ĝi faciligas prizorgi la kolekt
 
 ![Mansia memo: Kial?](./memes/sosva/why.png)
 
-<p align="center"><i>«Kial?»</i></p>
+<p align="center"><i>«Манрыг» — «Kial?»</i></p>
 
 </div>
 

@@ -2,14 +2,16 @@
   "dinislamova-2020": {
     "title": "Картинный фразеологический словарь мансийского языка",
     "author": "Динисламова",
-    "year": 2020
+    "year": 2020,
+    "url": "https://ouipiir.ru/content/картинный-фразеологический-словарь-мансийского-языка"
   },
 
   "bakhtiyarova-dinislamov-2016": {
-    "title": "Мансийско-русский словарь",
-    "author": "Бахтиярова, Динисламов",
+    "title": "Мансийско-русский словарь (верхне-лозьвинский диалект)",
+    "author": "Бахтиярова, Динисламова",
     "year": 2016,
-    "description": "Верхне-лозвинский вариант, около 2 000 слов"
+    "description": "Более 2 000 слов верхне-лозьвинского диалекта",
+    "url": "https://ouipiir.ru/sites/default/files/docs/1124-2085.pdf?utm_source=chatgpt.com"
   },
 
   "valdazs-untuy-erzyanin-lesson-1": {

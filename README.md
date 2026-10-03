@@ -15,7 +15,7 @@ The project is a small attempt to show Mansi in a context where you might not ex
 ## Why?
 Mansi is usually encountered through dictionaries, linguistic publications, archives, and educational materials. I wanted to do something much less serious with it: take words and expressions from those materials and put them into the kind of internet culture I encounter every day.
 
-A Minecraft screenshot with a Mansi caption may seem like a very small thing. That is exactly what I like about it. It shows that Mansi can be used not only to describe a language, but also to make a joke, share something with a friend, and simply exist on the internet.
+A Minecraft screenshot with a Mansi caption may seem like a very small thing. That is exactly what I like about it. It shows that Mansi can be used not only in materials about the language, but also to make a joke, share something with a friend, and simply exist on the internet.
 
 I also hope that the project can make other people curious about Mansi — or inspire them to make something similar with their own language.
 
@@ -87,7 +87,7 @@ The JSON is not the main purpose of the project, but it makes the collection eas
 
 ![Mansi meme: Why](./memes/sosva/why.png)
 
-<p align="center"><i>“Why?”</i></p>
+<p align="center"><i>“Манрыг” — “Why?”</i></p>
 
 </div>
 
